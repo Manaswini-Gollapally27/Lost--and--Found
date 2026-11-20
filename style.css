@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -490,4 +490,397 @@ footer {
     color: #064e3b;
     font-size: 35px;
     font-weight: bold;
+}
+
+/* =================================
+   LAVENDER & PURPLE THEME
+================================= */
+
+body {
+    background: #FAF8FF;
+    color: #35264D;
+}
+
+/* Header */
+header,
+footer {
+    background: #7655A8;
+}
+
+/* Navigation */
+nav a:hover {
+    color: #E5D5FF;
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(135deg, #7655A8, #B99AE8);
+}
+
+/* Buttons */
+button {
+    color: #7655A8;
+}
+
+button:hover {
+    background: #EDE4FF;
+}
+
+/* Features */
+.card h3 {
+    color: #7655A8;
+}
+
+/* Report forms */
+.report-section,
+.contact-section {
+    background: #F0E9FF;
+}
+
+.report-section h2,
+.dashboard-section h2,
+.reports-section h2 {
+    color: #7655A8;
+}
+
+.report-section input:focus,
+.report-section select:focus,
+.report-section textarea:focus {
+    border-color: #9575CD;
+    box-shadow: 0 0 5px rgba(149,117,205,0.25);
+}
+
+.report-section button {
+    background: #9575CD;
+    color: white;
+}
+
+.report-section button:hover {
+    background: #7655A8;
+}
+
+/* Success notification */
+.success-message {
+    background: #F0E9FF;
+    color: #49336B;
+    border-left-color: #9575CD;
+}
+
+.success-message h3 {
+    color: #7655A8;
+}
+
+/* Reports */
+.reports-section,
+.dashboard-section {
+    background: #FAF8FF;
+}
+
+.report-card {
+    border-left-color: #B99AE8;
+}
+
+.report-card h3 {
+    color: #7655A8;
+}
+
+.report-card p,
+.contact-section p {
+    color: #493D5E;
+}
+
+/* Search and filter */
+.search-container input,
+.search-container select {
+    border-color: #D8C5F5;
+}
+
+.search-container input:focus,
+.search-container select:focus {
+    border-color: #9575CD;
+}
+
+/* Welcome screen */
+#welcomeScreen {
+    background:
+        radial-gradient(circle at 15% 20%, rgba(255,255,255,0.18), transparent 25%),
+        radial-gradient(circle at 85% 80%, rgba(255,255,255,0.15), transparent 28%),
+        linear-gradient(135deg, #49336B, #7655A8, #B99AE8);
+}
+
+#welcomeScreen p {
+    color: #F0E9FF;
+}
+
+#welcomeScreen button {
+    background: #FFFFFF;
+    color: #7655A8;
+}
+
+#welcomeScreen button:hover {
+    background: #EDE4FF;
+}
+
+/* Dashboard cards */
+.dashboard-card {
+    border-bottom-color: #B99AE8;
+}
+
+.dashboard-card h3 {
+    color: #7655A8;
+}
+
+.dashboard-card p {
+    color: #49336B;
+}
+
+/* Contact section */
+.contact-section h2 {
+    color: #7655A8;
+}
+
+/* Soft Lavender Cards */
+
+.card,
+.dashboard-card,
+.report-card {
+    background: #F5F0FF;
+    box-shadow: 0 6px 22px rgba(118, 85, 168, 0.13);
+    border: 1px solid #E5D9FA;
+}
+
+.card:hover,
+.dashboard-card:hover {
+    box-shadow: 0 10px 28px rgba(118, 85, 168, 0.22);
+}
+
+.report-card {
+    border-left: 5px solid #9575CD;
+}
+
+.card h3,
+.dashboard-card h3,
+.report-card h3 {
+    color: #7655A8;
+}
+
+/* Lavender Form Design */
+
+.report-section form {
+    background: #F5F0FF;
+    border: 1px solid #E5D9FA;
+    box-shadow: 0 8px 25px rgba(118, 85, 168, 0.15);
+}
+
+.report-section input,
+.report-section select,
+.report-section textarea {
+    background: #FBF9FF;
+    border-color: #D8C5F5;
+}
+
+.report-section input:focus,
+.report-section select:focus,
+.report-section textarea:focus {
+    background: #FFFFFF;
+    border-color: #9575CD;
+}
+
+/* Lavender Report Cards */
+
+.reports-section {
+    background: #F5F0FF;
+}
+
+.report-card {
+    background: #FFFFFF;
+    border: 1px solid #E5D9FA;
+    border-left: 5px solid #9575CD;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(118, 85, 168, 0.12);
+    padding: 25px;
+}
+
+.report-card h3 {
+    color: #7655A8;
+}
+
+.report-card p {
+    color: #493D5E;
+}
+
+/* Lavender Search and Filter */
+
+.search-container input,
+.search-container select {
+    background: #FFFFFF;
+    border: 1px solid #D8C5F5;
+    border-radius: 12px;
+    color: #493D5E;
+    box-shadow: 0 4px 12px rgba(118, 85, 168, 0.08);
+}
+
+.search-container input:focus,
+.search-container select:focus {
+    border-color: #9575CD;
+    box-shadow: 0 0 8px rgba(149, 117, 205, 0.25);
+}
+
+/* Lavender Dashboard Design */
+
+.dashboard-section {
+    background: #F0E9FF;
+}
+
+.dashboard-card {
+    background: #FFFFFF;
+    border: 1px solid #E5D9FA;
+    border-bottom: 5px solid #9575CD;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(118, 85, 168, 0.13);
+}
+
+.dashboard-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(118, 85, 168, 0.2);
+}
+
+.dashboard-card h3 {
+    color: #7655A8;
+}
+
+.dashboard-card p {
+    color: #49336B;
+}
+
+/* Lavender Contact Section */
+
+.contact-section {
+    background: #F5F0FF;
+    border: 1px solid #E5D9FA;
+    box-shadow: 0 8px 25px rgba(118, 85, 168, 0.12);
+}
+
+.contact-section h2 {
+    color: #7655A8;
+}
+
+.contact-section p {
+    color: #493D5E;
+}
+
+/* Improved Delete Button */
+
+.delete-btn {
+    background: #E8DDF8;
+    color: #65418F;
+    border: 1px solid #C9B3E8;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.delete-btn:hover {
+    background: #D8C5F5;
+    color: #49336B;
+}
+
+/* Lavender Button Theme */
+
+button:not(.delete-btn) {
+    background: #9575CD;
+    color: #FFFFFF;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+button:not(.delete-btn):hover {
+    background: #7655A8;
+    transform: translateY(-2px);
+}
+
+/* Welcome screen button */
+#welcomeScreen button {
+    background: #FFFFFF;
+    color: #7655A8;
+}
+
+#welcomeScreen button:hover {
+    background: #EDE4FF;
+}
+
+/* Animated Lavender Welcome Screen */
+
+#welcomeScreen {
+    position: fixed;
+    overflow: hidden;
+    isolation: isolate;
+    background: linear-gradient(
+        -45deg,
+        #49336B,
+        #7655A8,
+        #A887D5,
+        #D0B8F0
+    );
+    background-size: 400% 400%;
+    animation: lavenderFlow 12s ease infinite;
+}
+
+/* Floating glowing waves */
+#welcomeScreen::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top: 20%;
+    left: -25%;
+    border-radius: 45%;
+    background: rgba(255,255,255,0.09);
+    filter: blur(35px);
+    animation: waveMove 10s ease-in-out infinite alternate;
+    z-index: -1;
+}
+
+/* Floating light particles */
+#welcomeScreen::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(circle, rgba(255,255,255,0.8) 2px, transparent 3px),
+        radial-gradient(circle, rgba(255,255,255,0.5) 2px, transparent 3px),
+        radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 2px);
+    background-size: 130px 150px, 190px 200px, 90px 110px;
+    animation: particleFloat 15s linear infinite;
+    opacity: 0.45;
+    z-index: -1;
+}
+
+#welcomeScreen > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Background movement */
+@keyframes lavenderFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes waveMove {
+    from {
+        transform: translate(-5%, -5%) rotate(0deg);
+    }
+    to {
+        transform: translate(5%, 5%) rotate(20deg);
+    }
+}
+
+@keyframes particleFloat {
+    from {
+        background-position: 0 0, 40px 50px, 20px 30px;
+    }
+    to {
+        background-position: 0 -300px, 40px -250px, 20px -200px;
+    }
 }
