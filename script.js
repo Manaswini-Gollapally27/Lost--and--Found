@@ -216,6 +216,10 @@ document.getElementById("filterType").addEventListener("change", displayReports)
 function openMainPage() {
     document.getElementById("welcomeScreen").style.display = "none";
 }
+// Get Started Button
+document.getElementById("getStartedBtn").addEventListener("click", function() {
+    document.getElementById("welcomeScreen").style.display = "none";
+});
 // Load Reports and Dashboard
 displayReports();
 updateDashboard();
